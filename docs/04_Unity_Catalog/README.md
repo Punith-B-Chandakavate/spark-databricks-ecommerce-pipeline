@@ -331,6 +331,58 @@ Open **Catalog Explorer** and verify that the new catalog has been created succe
 
 ---
 
+---
+
+# 📓 Databricks Notebook
+
+This guide is implemented using the following Azure Databricks notebook.
+
+| Notebook                                                  | Description |
+|-----------------------------------------------------------|-------------|
+| [📘 Setup Catalog](../../notebooks/0_setup_catalog.ipynb) | Creates the Unity Catalog, Storage Credential, and External Location using Azure Managed Identity. |
+
+---
+
+## 📋 Notebook Overview
+
+The notebook automates the complete Unity Catalog setup and performs the following tasks:
+
+- Configure the Unity Catalog environment
+- Create the Storage Credential
+- Create the External Location
+- Create the Unity Catalog
+- Verify the successful configuration
+
+---
+
+## ▶️ Notebook Workflow
+
+```text
+Open Notebook
+        │
+        ▼
+Create Storage Credential
+        │
+        ▼
+Create External Location
+        │
+        ▼
+Create Unity Catalog
+        │
+        ▼
+Verify Catalog Creation
+```
+
+---
+
+## 🖼 Notebook Execution
+
+The notebook executes all Unity Catalog configuration steps and validates that the catalog is created successfully.
+
+> **Note:** The notebook can be executed multiple times because it uses `IF NOT EXISTS` where applicable, making it safe to rerun during development and testing.
+
+---
+
 # 🏗 Final Architecture
 
 ```text
