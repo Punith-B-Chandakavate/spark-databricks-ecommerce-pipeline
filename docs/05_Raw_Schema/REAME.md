@@ -217,9 +217,10 @@ This confirms that the schema and external volume have been created successfully
 
 This guide is implemented using the following Databricks notebook.
 
-| Notebook                                                               | Description |
-|------------------------------------------------------------------------|-------------|
-| [📘 Setup Raw Schema](../../notebooks/1_setup_raw_schema.ipynb) | Creates the Raw Schema and External Volume for the Bronze layer. |
+| Notebook                                                                        | Description                            |
+|---------------------------------------------------------------------------------|----------------------------------------|
+| [📘 Setup Raw Schema](../../notebooks/01_setup/02_setup_raw_schema.ipynb)       | Creates the Raw Schema                 |
+| [📘 Create external volume](../../notebooks/01_setup/03_create_external_volume.ipynb) | Creates External Volume for the Bronze layer. |
 
 ---
 

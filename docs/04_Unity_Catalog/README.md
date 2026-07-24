@@ -339,7 +339,7 @@ This guide is implemented using the following Azure Databricks notebook.
 
 | Notebook                                                  | Description |
 |-----------------------------------------------------------|-------------|
-| [📘 Setup Catalog](../../notebooks/0_setup_catalog.ipynb) | Creates the Unity Catalog, Storage Credential, and External Location using Azure Managed Identity. |
+| [📘 Setup Catalog](../../notebooks/01_setup/01_setup_catalog.ipynb) | Creates the Unity Catalog, Storage Credential, and External Location using Azure Managed Identity. |
 
 ---
 
